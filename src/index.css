@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    touch-action: none;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+.font-display {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.font-mono-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@keyframes hud-timer-flash {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.animate-timer-flash {
+  animation: hud-timer-flash 0.65s ease-in-out infinite;
+}
+
+@keyframes fuel-ring-pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(244, 63, 94, 0.55);
+  }
+  50% {
+    transform: scale(1.06);
+    box-shadow: 0 0 0 8px rgba(244, 63, 94, 0);
+  }
+}
+
+.animate-fuel-pulse {
+  animation: fuel-ring-pulse 1.3s ease-in-out infinite;
+}
+
+@keyframes tutorial-ring-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 2px rgba(251, 191, 36, 0.9), 0 0 0 6px rgba(251, 191, 36, 0.25);
+  }
+  50% {
+    box-shadow: 0 0 0 3px rgba(251, 191, 36, 1), 0 0 0 11px rgba(251, 191, 36, 0);
+  }
+}
+
+.animate-tutorial-highlight {
+  animation: tutorial-ring-pulse 1.25s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-timer-flash,
+  .animate-fuel-pulse,
+  .animate-tutorial-highlight {
+    animation: none;
+  }
+}
+
+
