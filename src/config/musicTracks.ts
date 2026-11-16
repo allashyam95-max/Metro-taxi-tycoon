@@ -18,7 +18,7 @@ export const MUSIC_TRACKS: MusicTrackSpec[] = [
   {
     id: 'chill1',
     fileName: 'chill1.mp3',
-    src: '/music/chill1.mp3',
+    src: './music/chill1.mp3',
     title: 'Chill Lofi Inspired',
     artist: 'isaiah658 (OpenGameArt)',
     license: 'CC0 1.0 Universal (Public Domain)',
@@ -27,7 +27,7 @@ export const MUSIC_TRACKS: MusicTrackSpec[] = [
   {
     id: 'taxi1',
     fileName: 'taxi1.mp3',
-    src: '/music/taxi1.mp3',
+    src: './music/taxi1.mp3',
     title: 'Midnight Drive',
     artist: 'Pro Sensory (OpenGameArt)',
     license: 'CC0 1.0 Universal (Public Domain)',
@@ -36,7 +36,7 @@ export const MUSIC_TRACKS: MusicTrackSpec[] = [
   {
     id: 'vip1',
     fileName: 'vip1.mp3',
-    src: '/music/vip1.mp3',
+    src: './music/vip1.mp3',
     title: 'Two Left Socks',
     artist: 'Umplix (OpenGameArt)',
     license: 'CC0 1.0 Universal (Public Domain)',
@@ -45,7 +45,7 @@ export const MUSIC_TRACKS: MusicTrackSpec[] = [
   {
     id: 'chill2',
     fileName: 'chill2.mp3',
-    src: '/music/chill2.mp3',
+    src: './music/chill2.mp3',
     title: 'Entanglement',
     artist: 'I_llusive (OpenGameArt)',
     license: 'CC0 1.0 Universal (Public Domain)',
@@ -54,7 +54,7 @@ export const MUSIC_TRACKS: MusicTrackSpec[] = [
   {
     id: 'taxi2',
     fileName: 'taxi2.mp3',
-    src: '/music/taxi2.mp3',
+    src: './music/taxi2.mp3',
     title: 'Raspberry Jam',
     artist: 'Jan125 (OpenGameArt)',
     license: 'CC0 1.0 Universal (Public Domain)',
@@ -63,7 +63,7 @@ export const MUSIC_TRACKS: MusicTrackSpec[] = [
   {
     id: 'vip2',
     fileName: 'vip2.mp3',
-    src: '/music/vip2.mp3',
+    src: './music/vip2.mp3',
     title: 'Jazzy Blues',
     artist: 'Charlie (OpenGameArt)',
     license: 'CC0 1.0 Universal (Public Domain)',
